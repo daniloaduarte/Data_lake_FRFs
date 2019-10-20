@@ -1,0 +1,8 @@
+DELIMITER $$
+CREATE PROCEDURE st_mm_to_m_FRF_exp()  
+BEGIN
+create table frf_k (select (Amp_Re * 0.001) Amp_Re_m,
+(Amp_Im * 0.001) Amp_Im_m
+from frf_e_pa2_x);               /* Change 'k' to the intended name for the table  */ 
+END
+$$
