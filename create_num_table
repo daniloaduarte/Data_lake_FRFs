@@ -1,0 +1,9 @@
+create table frf_num.FRF_n_P12_X (id_freq int not null auto_increment,     /* Change name of the database and table for a apropriate one*/
+Frequencia double,
+Amp double,
+Fase double, 
+Amp_Re double, 
+Amp_Im double, 
+primary key (id_freq))
+
+/* Choose a apropriate number of characters for the variables */
