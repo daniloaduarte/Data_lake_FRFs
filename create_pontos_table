@@ -1,0 +1,5 @@
+create table frf_num.pontos (id_ponto int not null auto_increment,
+ponto varchar(3),
+Sentido_fix varchar(2),
+Dps_isol int(1),
+primary key (id_ponto))
